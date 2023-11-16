@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.home{
+	background: white;
+	height: 5rem;
+	box-shadow: 0px 3px 100px #DFDFDE;  
+	width: 100%;
+}
+.home img{
+	height: 4rem;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 4rem;
+}
+.home table{
+	margin-left: 73%;
+}
+.home table td{
+	padding-top: 1rem;
+	padding-right: 1rem;
+	font-size: 1.2rem;
+}
+.home table img{
+	height: 2rem;
+}
+.about-laptop{
+	margin-top: 5rem;
+	margin-left: 60%;
+}
+.model-name{
+	margin-top: -25rem;
+	font-size: 2rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: blue;
+}
+.about-laptop table{
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+.about-laptop table td{
+	padding-top: 1rem;
+	padding-right: 2rem;
+	font-size: 1.2rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: gray;
+}
+.big-img {
+	float: left;
+	margin-top: -18rem;
+}
+.big-img img{
+	width: 35rem;
+	margin-left: 40%;
+}
+.small-img ul{
+	margin-left: 1%;
+	margin-top: 6rem;
+}
+.small-img li{
+	width: 3rem;
+	border: 1px solid #DFDFDE;
+	list-style-type: none;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	margin-right: 0px;
+}
+.small-img li img{
+	width: 3rem;
+}
+.whatsapp button{
+	height: 3rem;
+	width: 18rem;
+	font-size: 1rem;
+	border:none;
+	border-radius: 10px;
+	margin-left: 20%;
+	background: green;
+	color: white;
+}
+.whatsapp button:hover{
+	cursor: pointer;
+	background: darkgreen;
+}
+.contact-us{
+	width: 100%;
+	background-color: #EEEEEE;
+	margin-top: 4rem;
+}
+.contact-us-box{
+	height: 22rem;
+	width: 90%;
+}
+.contact-us #logo{
+	height: 6rem;
+	margin-top: 8rem;
+	float: left;
+/*	margin-left: -4rem;*/
+}
+.social-media h3{
+	float: left;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #bd1524;
+	margin-top: 3rem;
+	margin-left: 10rem;
+}
+.social-media ul{
+	margin-left: -18rem;
+	margin-top: 3rem;
+}
+.social-media li{
+	list-style-type: none;
+	float: left;
+	margin-right: 1rem;
+}
+.social-media img{
+	height: 2rem;
+}
+.social-media img:hover{
+	background-color: #bd1524;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+.contact-info h3{
+	padding-top: 3rem;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #bd1524;
+}
+.contact-info table{
+	font-size: 1rem;
+	margin-left: 60%;
+	margin-top: -2rem;
+}
+.contact-info td{
+	padding-right: 1rem;
+	color: black;
+	padding-bottom: 0.5rem;
+}
+.contact-info #call:hover{
+	cursor: pointer;
+}
+.copy-right{
+	color: gray;
+	margin-top: 4rem;
+	font-size: 1rem;
+}
+@media (max-width:430px){
+	.home{
+		height: 3rem;
+	}
+	.home img{
+		height: 2rem;
+		margin-left: 5%;
+	}
+	.home table{
+		margin-left: 65%;
+	}
+	.home table td{
+		font-size: 0.6rem;
+		padding-top: 10px;
+		padding-right: 0.5rem;
+	}
+	.home table img{
+		height: 1.3rem;
+		margin-top: 3px;
+	}
+	.small-img ul{
+		margin-top: 2rem;
+	}
+	.big-img {
+		margin-top: -14rem;
+	}
+	.big-img img{
+		width: 15rem;
+		margin-left: 42%;
+	}
+	.about-laptop{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.model-name{
+		margin-top: 0px;
+		font-size: 1rem;
+		margin-left: 2rem;
+	}
+	.about-laptop table {
+		margin-top: 0rem;
+		margin-left: 15%;
+	}
+	.about-laptop table td{
+		font-size: 0.8rem;
+		padding-right: 1rem;
+	}
+	.about-laptop table img{
+		width: 1rem;
+	}
+	.whatsapp button{
+		margin-top: 2rem;
+		width: 15rem;
+		height: 2rem;
+		margin-left: 17%;
+	}
+	.contact-us{
+		float: left;
+		margin-top: 2rem;
+	}
+	.contact-us-box{ 
+		height: 14rem;
+	}
+	.contact-us #logo{
+		height: 2rem;
+		margin-top: 1rem;
+		margin-left: 0px;
+		float: none;
+	}
+	.social-media h3{
+		/* float: left; */
+		font-size: 1rem;
+		margin-left: 0%;
+		margin-right: 0px;
+		margin-top: 1rem;
+	}
+	.social-media img{
+		height: 1rem;
+		margin-left: 0%;
+	}
+	.social-media ul{
+		margin-left: -5rem;
+		margin-top: 1.5rem;
+	}
+	.contact-info h3{
+		float: left;
+		font-size: 1rem;
+		margin-left: 4rem;
+		margin-right: 0px;
+		margin-top: -2rem;
+	}
+	.contact-info img{
+		height: 1rem;
+	}
+	.contact-info table{
+		font-size: 0.5rem;
+		margin-left: 7rem;
+		margin-top: -2rem;
+	}
+	.contact-info td{
+		padding-right: 0.5rem;
+		color: black;
+		padding-bottom: 0.5rem;
+	}
+	.copy-right{
+		margin-top: 1rem;
+		margin-left: -20%;
+		font-size: 0.4rem;
+	}
+}
